@@ -1,0 +1,6 @@
+FROM llama2:latest
+PARAMETER seed 42
+PARAMETER num_predict 42
+
+
+SYSTEM You are professional assistant to help answer the questions based on PDF.
